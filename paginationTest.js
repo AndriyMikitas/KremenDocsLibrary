@@ -1,5 +1,5 @@
 async function getPreciseData(pageNumber) {
-    const response = await fetch(`https://rest.kremen.org.ua/api/getpage/6/${pageNumber-1}`);
+    const response = await fetch(`https://rest.kremen.org.ua/api/getpage/7/${pageNumber-1}`);
 
     const data = await response.json();
     console.log(data)
